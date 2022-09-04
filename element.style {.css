@@ -1,0 +1,62 @@
+element.style {
+}
+@media screen and (max-width: 750px)
+.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter {
+    display: block;
+    float: none;
+    width: auto;
+    margin: 0 0 30px 0;
+}
+
+.one_quarter {
+    width: 21.8421%;
+}
+.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter {
+    display: inline-block;
+    float: left;
+    margin: 0 0 0 4.21052%;
+    list-style: none;
+}
+*, *::before, *::after {
+    transition: all .3s ease-in-out;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.row4 {
+    color: #A5A6AA;
+    background-color: #20639b;
+}
+.overlay {
+    color: #FFFFFF;
+    background-color: inherit;
+}
+body {
+    color: #A5A6AA;
+    background-color: #282E39;
+}
+body, input, textarea, select {
+    font-family: Verdana, Geneva, sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.6em;
+}
+*, *::before, *::after {
+    transition: all .3s ease-in-out;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    transition: all .3s ease-in-out;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}

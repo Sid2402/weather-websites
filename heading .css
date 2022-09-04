@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <div class="navbar">
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
+          <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Services
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="#">BOOKING</a>
+            <a href="#">COUSTOMER LOGIN</a>
+            <a href="#">HOTEL INFO</a>
+            <a href="#">HELP</a>
+          </div>
+          </div>
+    </body>
+</html>

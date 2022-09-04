@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+<title>Chennai |&nbsp; Siddhart Weather</title>
+<meta charset="utf-8">
+<link rel='shortcut icon' href=C:\Users\siddh\Desktop\Siddhart\aaa.png type='image/x-icon' />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="menu-bar">
+    <h1 class="logo">Siddhart<span>Weather</span></h1>
+        <ul>
+        <li><a href="#">IMD<i class="fas fa-caret-down"></i>
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a href="#">Regional Websites <i class="fas fa-caret-right"></i></a>
+                    <div class="dropdown-menu-1">
+                        <ul>
+                          <li><a href="https://rmcnewdelhi.imd.gov.in/" target='_blank'>New Delhi</a></li>
+                          <li><a  href="https://mausam.imd.gov.in/chennai/" target='_blank'>Chennai</a></li>
+                          <li><a  href="http://www.imdmumbai.gov.in/" target='_blank'>Mumbai</a></li>
+                          <li><a  href="http://www.imdkolkata.gov.in/" target='_blank'>Kolkata</a></li>
+                          <li><a  href="https://mausam.imd.gov.in/hyderabad/" target='_blank'>Hyderabad</a></li>
+                          <li><a  href="https://mausam.imd.gov.in/thiruvananthapuram/" target='_blank'>Thiruvananthapuram</a></li>
+                          <li><a  href="https://mausam.imd.gov.in/bengaluru/" target='_blank'>Bengaluru</a></li>
+                          <li><a  href="https://imdpune.gov.in/" target='_blank'>Pune</a></li>
+                        </ul>
+                    </div>
+                  <li><a href="http://aws.imd.gov.in:8091/" target='_blank'>AWS/ARG data</a></li>
+                  <li><a href="https://mausam.imd.gov.in/imd_latest/contents/Todaysweather_mc.php?id=26" target='_blank'>TN Obs Data</a></li>
+                  <li><a href="https://city.imd.gov.in/citywx/city_weather_test.php?id=43278" target='_blank'>Nunga Report</a></li>
+                  <li><a href="https://city.imd.gov.in/citywx/city_weather_test.php?id=43279" target='_blank'>Meena Report</a></li>
+                  <li><a href="https://mausam.imd.gov.in/chennai/mcdata/rdwr.pdf" target='_blank'>Daily Weather Report</a></li>
+                  <li><a href="http://aws.imd.gov.in:8091/display/?v=CHENNAI" target='_blank'>Nunga AWS</a></li>
+                  <li><a href="http://aws.imd.gov.in:8091/display/?v=MEENAMBAKKAM_ISRO" target='_blank'>Meena AWS</a></li>
+        
+                </ul>
+            </div>
+        </li>          
+      </ul>
+        <ul>
+          <li><a href="https://mausam.imd.gov.in/">Forecasts<i class="fas fa-caret-down"></i>
+            <div class="dropdown-menu">
+                <ul>
+                  <li><a href="https://www.tropicaltidbits.com/analysis/models/?model=gfs&region=india&pkg=apcpn24&runtime=2021122300&fh=24" class="dropbtn" target='_blank'>Tropical Titbits</a></li>
+                  <li><a href="https://www.tropicaltidbits.com/analysis/models/?model=gfs&region=india&pkg=apcpn24&runtime=2021122300&fh=24" target='_blank'>GFS</a></li>
+                  <li><a href="https://www.tropicaltidbits.com/analysis/models/?model=ecmwf&region=india&pkg=apcpn24&runtime=2021122300&fh=24" target='_blank'>ECMWF</a></li>
+                  <li><a href="https://www.tropicaltidbits.com/analysis/models/?model=gem&region=india&pkg=uv850_vort&runtime=2021122300&fh=24" target='_blank'>CMC</a></li>
+                  <li><a href="https://www.tropicaltidbits.com/analysis/models/?model=navgem&region=india&pkg=z850_vort&runtime=2021122300&fh=24" target='_blank'>NAVGEM</a></li>
+                  <li><a href="https://www.tropicaltidbits.com/analysis/models/?model=icon&region=india&pkg=mslp_pcpn&runtime=2021122300&fh=24" target='_blank'>ICON</a></li>
+                  <li><a href="https://www.tropicaltidbits.com/analysis/models/?model=jma&region=india&pkg=mslp_pcpn&runtime=2021122300&fh=24" target='_blank'>JMA</a></li>
+                </ul>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="#">Cyclones<i class="fas fa-caret-down"></i>
+            <div class="dropdown-menu">
+                <ul>
+                   <li><a href="https://mausam.imd.gov.in/imd_latest/contents/cyclone.php" target='_blank'>IMD Warning</a></li>
+                   <li><a href="https://ddgmui.imd.gov.in/dwr_img/GIS/cyclone.html" target='_blank'>Projected path</a></li>
+                   <li><a href="http://www.metoc.navy.mil/jtwc/jtwc.html" target='_blank'>JTWC</a></li>
+                   <li><a href="https://en.wikipedia.org/wiki/Tropical_cyclone_naming" target='_blank'>Cyclone Names</a></li>
+                </ul>
+            </div>
+           </li>
+         </ul>
+        <ul>
+          <li><a href="#">Others<i class="fas fa-caret-down"></i>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="http://123.63.203.150/public/lake.htm" target='_blank'>Dam Level</a></li>
+                    <li><a href="https://earthquake.usgs.gov/earthquakes/map/?extent=-5.7909,-184.21875&extent=66.93006,-15.46875&listOnlyShown=true&timeZone=utc" target='_blank'>Earthquake</a></li>
+                    <li><a href="https://www.nrlmry.navy.mil/TC.html" target='_blank'>Tsunami</a></li>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1O2aFFJ1xEA1jRhmpcL0z5uU07AFky4igGwv5Y89d8QQ/edit?hl=en_US&hl=en_US#gid=0" target='_blank'>TN RF normal</a></li>
+                </ul>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="#">PWS<i class="fas fa-caret-down"></i>
+            <div class="dropdown-menu">
+                <ul>     
+                    <li><a href="https://www.wunderground.com/dashboard/pws/ICHENNAI1" target='_blank'>KWS</a></li>
+                    <li><a href="https://www.wunderground.com/dashboard/pws/ICHENNAI32" target='_blank'>Palavakkam</a></li>
+                    <li><a href="https://www.wunderground.com/dashboard/pws/ICHENN25" target='_blank'>Perumbakkam</a></li>
+                    <li><a href="https://www.wunderground.com/dashboard/pws/ICHENN24" target='_blank'>Chrompet</a></li>
+                    <li><a href="https://www.wunderground.com/dashboard/pws/ITAMBA13" target='_blank'>Tambaram</a></li>
+                    <li><a href="https://www.wunderground.com/dashboard/pws/ICHENN41" target='_blank'>Korattur</a></li>
+                    <li><a href="https://www.wunderground.com/dashboard/pws/IPERAMBU2" target='_blank'>Perambur</a></li>
+                    <li><a href="https://www.wunderground.com/dashboard/pws/ICHENN7" target='_blank'>West Mambalam</a></li>
+                </ul>
+            </div>
+          </li>
+        </ul>
+ </div>         
+
+
+</li>
+</ul>
+
+</nav>
+</header>
+</div>
+<div class="container">
+<li>
+<h6><a href="https://mausam.imd.gov.in/Radar/caz_cni.gif"target='_blank'>IMD Radar 1</h6>
+<p class="abc"><img src="https://mausam.imd.gov.in/Radar/caz_cni.gif" height="70%" width="70%"></p>
+</li>
+<li>
+<h6><a href="https://mausam.imd.gov.in/Radar/sri_cni.gif"target='_blank'>IMD Radar 2</h6>
+<p class="abc"><img src="https://mausam.imd.gov.in/Radar/sri_cni.gif" height="70%" width="70%"></p>
+</li>
+<li>
+<h6><a href="https://mausam.imd.gov.in/Radar/ppz_chn.gif"target='_blank'>IMD Radar 3</h6>
+<p class="abc"><img src="https://mausam.imd.gov.in/Radar/ppz_chn.gif" height="70%" width="70%"></p>
+</li>
+</div>
+<div class="container">
+<li>
+<h6><a href="https://mausam.imd.gov.in/Radar/caz_kkl.gif"target='_blank'>IMD Radar 1</h6>
+<p class="abc"><img src="https://mausam.imd.gov.in/Radar/caz_kkl.gif" height="70%" width="70%"></p>
+</li>
+<li>
+<h6><a href="https://mausam.imd.gov.in/Radar/sri_kkl.gif"target='_blank'>IMD Radar 2</h6>
+<p class="abc"><img src="https://mausam.imd.gov.in/Radar/sri_kkl.gif" height="70%" width="70%"></p>
+</li>
+<li>
+<h6><a href="https://mausam.imd.gov.in/Radar/ppz_kkl.gif"target='_blank'>IMD Radar 3</h6>
+<p class="abc"><img src="https://mausam.imd.gov.in/Radar/ppz_kkl.gif" height="70%" width="70%"></p>
+</li>
+</div>
+<div class="container">
+<li>
+<h6><a href="https://mausam.imd.gov.in/Satellite/3Dasiasec_wv.jpg"target='_blank'>Sat Image 1</h6>
+<p class="abc"><img src="https://mausam.imd.gov.in/Satellite/3Dasiasec_wv.jpg" height="70%" width="70%"></p>
+</li>
+<li>
+<h6><a href="https://mausam.imd.gov.in/Satellite/Converted/WV.gif"target='_blank'>Sat image 2</h6>
+<p class="abc"><img src="https://mausam.imd.gov.in/Satellite/Converted/WV.gif" height="70%" width="70%"></p>
+</li>
+<li>
+<h6><a href="https://mausam.imd.gov.in/Satellite/3Dasiasec_ctbt.jpg"target='_blank'>Sat image 3</h6>
+<p class="abc"><img src="https://mausam.imd.gov.in/Satellite/3Dasiasec_ctbt.jpg" height="70%" width="70%"></p>
+</li>
+<a name="T"></a>
+</div>
+</section>
+</div>
+<div>
+  <nav>
+<section>
+<h6>Poonamallee Rainfall Data</h6>
+<article>
+<div>
+<figure><font size="5">&nbsp;&nbsp;&nbsp;&nbsp;</font><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtCH_bRm6qN5uIgMHkJSPMeSOi1C-Ak0Po-u3pNuHBgl5Egqg4WQyLd9lbd3yE3KqLBuEeBwHFWWJN/pubhtml?gid=347494221&single=true" width="970px" height="330px"></iframe>
+</figure>
+</div>
+<article>
+  <div>
+<figure><font size="5">&nbsp;&nbsp;&nbsp;&nbsp;</font><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtCH_bRm6qN5uIgMHkJSPMeSOi1C-Ak0Po-u3pNuHBgl5Egqg4WQyLd9lbd3yE3KqLBuEeBwHFWWJN/pubchart?oid=1154812181&format=interactive&amp;single=true&amp;widget=true&amp;headers=false" width="800px" height="400px"></iframe>
+</figure>
+</div>
+</section>
+</nav>
+</div>
+<div>
+<footer class="footer-distributed">
+
+<div class="footer-left">
+  <h7 class="logo">Siddhart<span>Weather</span></h7>
+<h6 >Weather Links</h6>
+<p class="footer-links">
+<a href="#" class="link-1">Home</a>
+<a href="#"><a href='https://mausam.imd.gov.in/imd_latest/contents/index_radar.php?id=Chennai'target='_blank'>Radar</a>
+<a href="#"><a href='http://satellite.imd.gov.in/'target='_blank'>Sat Image</a>
+<a href="#"><a href='https://mausam.imd.gov.in/imd_latest/contents/rainfallinformation.php'target='_blank'>Rainfall</a>
+
+</div>
+<div class="footer-center" class="row">
+  <h6>Images</h6>
+  <div class="column">
+<a href="#"><img src="C:\Users\siddh\Desktop\Siddhart\abd.png" height="90px" width="90px" alt=""></a>
+</div>
+<div class="column">
+<a href="#"><img src="C:\Users\siddh\Desktop\Siddhart\acb.png" height="90px" width="90px" alt=""></a>
+</div>
+<div class="row">
+  <a href="#"><img src="C:\Users\siddh\Desktop\Siddhart\adb.png" height="90px" width="90px" alt=""></a>
+<div class="column">
+  <a href="#"><img src="" alt=""></a>
+</div>
+</div>
+</div>
+<div class="footer-right">
+
+  <div>
+    <i class="fa fa-map-marker"></i>
+    <p><span>11,B3,Muthamizh Nagar</span> Poonamallee,Chennai</p>
+  </div>
+
+  <div>
+    <i class="fa fa-phone"></i>
+    <p>+91 9940472596</p>
+  </div>
+
+  <div>
+    <i class="fa fa-envelope"></i>
+    <p><a href="2016115@saec.ac.in">support@company</a></p>
+  </div>
+
+</div>
+<div class="footer-icons">
+
+  <a href="https://www.facebook.com/siddhart.upadhyaya.5"><i class="fab fa-facebook"></i></a>
+  <a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.linkedin.com/in/siddhart-upadhyaya-87bb2419a/"><i class="fab fa-linkedin"></i></a>
+  <a href="https://github.com/Sid2402/Sid2402"><i class="fab fa-github"></i></a>
+
+</div>
+</footer>
+</div>
+
+</body>
+</html>
